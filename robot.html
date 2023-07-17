@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .body{
+            border: 2px solid black;
+            height: 100px;
+            width: 150px;
+            border-radius: 15%;
+            position: relative;
+            left: 63px;
+            top: 50px;
+            background-color: rgb(240, 181, 71);
+            animation-name: head;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+           }
+             @keyframes head{
+                100%{
+                background:linear-gradient(rgba(252, 118, 9, 0.918),lavender);
+                border-radius: 30%;
+                position: relative;
+                }
+             }
+         .u{
+            border: 2px solid black;
+            height: 250px;
+            width: 150px;
+            background-color: rgb(240, 181, 71);
+            position: relative;
+            border-radius: 15%;
+            animation-name: head;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            left: 64px;
+            top: 50px;
+           }
+             
+        .lh{
+            border: 2px solid black;
+            width: 30px;
+            height: 150px;
+            position: relative;
+            left: 70px;
+            bottom: 155px;
+            border-radius: 100%;
+            background:linear-gradient(red,rgb(238, 255, 0));
+            animation-name: hand;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+           }
+            @keyframes hand {
+             0% {
+                transform: rotate(0deg);
+                transform-origin: top center;
+                
+                }
+            25% {
+                transform: rotate(180deg);
+                transform-origin: top center;
+                
+                }
+            50% {
+                transform: rotate(0deg);
+                transform-origin: top center;
+                
+                }
+            75% {
+                transform: rotate(-180deg);
+                transform-origin: top center;
+              
+                }
+           100% {
+                transform: rotate(0deg);
+                transform-origin: top center; 
+                
+                }
+          }
+        .rh{
+            border: 2px solid black;
+            width: 30px;
+            height: 150px;
+            position: relative;
+            left: 180px;
+            bottom: 307px;
+            border-radius: 100%;
+            background:linear-gradient(red,rgb(238, 255, 0));
+            animation-name: hand1;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+           }
+            @keyframes hand1{
+            0% {
+               transform: rotate(0deg);
+               transform-origin: top center;
+              
+               }
+           25% {
+               transform: rotate(-180deg);
+               transform-origin: top center;
+               
+               }
+           50% {
+               transform: rotate(0deg);
+               transform-origin: top center;
+               
+               }
+           75% {
+               transform: rotate(180deg);
+               transform-origin: top center;
+              
+               }
+          100% {
+               transform: rotate(0deg);
+               transform-origin: top center;
+               
+               }
+          }
+        .ll{
+            border: 2px solid black;
+            width: 30px;
+            height: 150px;
+            position: relative;
+            left: 73px;
+            bottom: 300px;
+            border-radius: 100%;
+            background:linear-gradient(red,rgb(238, 255, 0));
+            animation-name: leg1;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+          }
+           @keyframes leg1{
+             0%{
+               
+               transform: rotate(-0deg);
+               }
+            50%{
+               
+               transform: rotate(50deg);
+               transform-origin: top center;
+               }
+           100%{
+              
+               transform: rotate(0deg);
+               }
+           }
+         .rl{
+                border: 2px solid black;
+                width: 30px;
+                height: 150px;
+                position: relative;
+                left: 170px;
+                bottom: 455px;
+                border-radius: 100%;
+                background:linear-gradient(red,rgb(238, 255, 0));
+                animation-name: leg;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+            }
+            @keyframes leg{
+                0%{
+                   
+                    transform: rotate(0deg);
+                }
+                50%{
+                    
+                    transform: rotate(-50deg);
+                    transform-origin: top center;
+                }
+                100%{
+                   
+                    transform: rotate(0deg);
+                }
+              }
+             .e1{
+               border: 4px solid black;
+               width: 10px;
+               height: 10px;
+               border-radius:100px ;
+               position: relative;
+               bottom: 890px;
+               left: 95px;
+               border-bottom-color: bisque;
+               border-top-color:bisque ;
+               animation-name: eye;
+               animation-duration: 1s;
+               animation-fill-mode: forwards;
+               animation-iteration-count: infinite;
+             }
+             @keyframes eye{
+                0%{
+                    background:linear-gradient(red,blue);
+                    transform: rotate(0deg);
+                }
+                25% {
+                   transform: rotate(90deg);
+                   transform-origin: top center;
+                   background:linear-gradient(red,blue);
+                 }
+                50% {
+                   transform: rotate(180deg);
+                   transform-origin: top center;
+                   background:linear-gradient(red,blue);
+                    }
+                75% {
+                    transform: rotate(270deg);
+                    transform-origin: top center;
+                    background:linear-gradient(red,blue);
+                    }
+                100%{
+                    background:linear-gradient(red,blue);
+                    transform: rotate(360deg);
+                    }
+              }
+             .e2{
+               border: 4px solid black;
+               width: 10px;
+               height: 10px;
+               border-radius:100px ;
+               position: relative;
+               bottom: 908px;
+               left: 170px;
+               border-bottom-color: bisque;
+               border-top-color:bisque ;
+               animation-name: eye2;
+               animation-duration: 1s;
+               animation-fill-mode: forwards;
+               animation-iteration-count: infinite;
+             }
+             @keyframes eye2{
+                0%{
+                    background:linear-gradient(red,blue);
+                    transform: rotate(-0deg);
+                }
+                25% {
+                   transform: rotate(-90deg);
+                   transform-origin: top center;
+                   background:linear-gradient(red,blue);
+                 }
+                50% {
+                   transform: rotate(-180deg);
+                   transform-origin: top center;
+                   background:linear-gradient(red,blue);
+                    }
+                75% {
+                    transform: rotate(-270deg);
+                    transform-origin: top center;
+                    background:linear-gradient(red,blue);
+                    }
+                100%{
+                    background:linear-gradient(red,blue);
+                    transform: rotate(-360deg);
+                    }
+              }
+             .m{
+               width: 30px;
+               height: px;
+               border: 4px solid black;
+               bottom: 885px;
+               left: 124.5px;
+               position: relative;
+               animation-name: m;
+               animation-duration: 1s;
+               animation-fill-mode: forwards;
+               animation-iteration-count: infinite;
+             }
+             @keyframes m{
+             50%{
+               width: 30px;
+               height: 5px;
+               border: 2px solid black;
+               border-radius: 30px;
+               background: linear-gradient(blue,red);
+               }
+             }
+    </style>
+</head>
+<body>
+   <h1>My Robot 3.0</h1>
+    <div class="a" style="margin: auto;">
+        <div class="body"></div>
+        <div class="u"></div>
+        <div class="lh "></div>
+        <div class="rh"></div>
+        <div class="ll"></div>
+        <div class="rl"></div>
+        <div class="e e1"></div>
+        <div class="e e2"></div>
+        <div class="m"></div>
+    </div>
+</body>
+</html>
